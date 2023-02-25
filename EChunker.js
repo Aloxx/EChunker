@@ -1,17 +1,6 @@
 import { Chunk } from "./echunker/Chunk.js";
 import { ChunkGenerator } from "./echunker/ChunkGenerator.js";
 
-
-
-const cfg = {
-    min_x: 0,
-    max_x: 10000,
-    min_y: 0,
-    max_y: 10000,
-    chunk_size: 100
-}
-
-
 export class EChunker {
     constructor (config = {}) {
         this.min_x = config.min_x ?? 0;
