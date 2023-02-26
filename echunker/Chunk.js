@@ -74,4 +74,10 @@ export class Chunk {
     getObject (id) {
         return this.objectsIn.find(eo => eo.id == id);
     }
+    /**
+     * Getting ChunkObject by x , y
+     */
+    getObjectAt(x,y) {
+        return this.objectsIn.find(eo => eo.x == x && eo.y == y);
+    }
  }
