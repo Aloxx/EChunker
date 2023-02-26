@@ -32,6 +32,7 @@ Other methods for Chunk:
     chunk.insertObject(obj) <-- Inserts object into chunk , object should have x , y , id
     removeObject(id) <-- remove object from chunk
     getObject(id) <-- getting object in chunk by id
+    getObjectAt(x,y) <-- getting first object from x , y coordinates
 
 
 ~ Other methods will be added in future
